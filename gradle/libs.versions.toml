@@ -1,0 +1,19 @@
+[versions]
+
+android-plugin = '8.13.0'
+
+android-sdk-compile = '36'
+android-sdk-min = '28'
+android-sdk-target = '36'
+
+java = '21'
+
+kotlin = '2.2.20'
+
+oss-licenses-plugin = "0.10.9"
+
+[plugins]
+
+android-application = { id = 'com.android.application', version.ref = 'android-plugin' }
+kotlin-android = { id = 'org.jetbrains.kotlin.android', version.ref = 'kotlin' }
+oss-licenses = { id = 'com.google.android.gms.oss-licenses-plugin', version.ref = 'oss-licenses-plugin' }
